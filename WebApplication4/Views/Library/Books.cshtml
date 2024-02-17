@@ -1,0 +1,13 @@
+@model List<string>
+
+@{
+    Layout = null;
+}
+
+<h2>Books</h2>
+<ul>
+    @foreach (var book in Model)
+    {
+        <li>@book</li>
+    }
+</ul>
